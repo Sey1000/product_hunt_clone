@@ -1,0 +1,13 @@
+kudoz:
+  name: "Kudoz"
+  tagline: "Tinder for Jobs"
+doggy:
+  name: "Dog Runners"
+  tagline: "Fit dogs are happy dogs!"
+
+# Can't indent!! it's yml
+<% 1.upto(2) do |i| %>
+product_<%= i %>:
+  name: <%= Faker::Company.name %>
+  tagline: <%= Faker::Company.catch_phrase %>
+<% end %>

@@ -19,7 +19,19 @@ gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
 
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+end
+
 group :development, :test do
+  # for phamtomjs
+  gem 'capybara' # visit an url, click on a link, fill in a form 
+  gem 'poltergeist' # communicate with phantomjs
+  gem 'launchy' # launch an app
+
+  gem 'minitest-reporters'
+
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'web-console', '>= 3.3.0'
