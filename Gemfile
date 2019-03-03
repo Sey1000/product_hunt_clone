@@ -8,7 +8,7 @@ gem 'figaro'
 gem 'jbuilder', '~> 2.0'
 gem 'pg'
 gem 'puma'
-gem 'rails', '5.0.5'
+gem 'rails'
 gem 'redis'
 
 gem 'autoprefixer-rails'
@@ -26,7 +26,7 @@ end
 
 group :development, :test do
   # for phamtomjs
-  gem 'capybara' # visit an url, click on a link, fill in a form 
+  gem 'capybara' # visit an url, click on a link, fill in a form
   gem 'poltergeist' # communicate with phantomjs
   gem 'launchy' # launch an app
 
